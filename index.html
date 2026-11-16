@@ -34,12 +34,54 @@ records.forEach((r,i)=>{const li=el('li');li.append(makeLink(`${r.id} · ${r.tit
 
 });
 // Las ilustraciones son extras independientes: no corresponden necesariamente a los relatos.
-// Guarda tus nueve archivos en la carpeta imagenes, con estos nombres, o cambia cada ruta.
-const extras = Array.from({length:9}, (_,i)=>({
-  archivo:`imagenes/extra-${String(i+1).padStart(2,'0')}.jpg`,
-  titulo:`Lámina ${String(i+1).padStart(2,'0')}`,
-  descripcion:'Archivo visual OMEGA-77'
-}));
+// Nueve ilustraciones independientes de los relatos, incluidas en la carpeta imagenes.
+const extras = [
+  {
+    "archivo": "imagenes/extra-01.jpg",
+    "titulo": "Farp",
+    "descripcion": "Anexo visual 01 · OMEGA-77"
+  },
+  {
+    "archivo": "imagenes/extra-02.jpg",
+    "titulo": "Y ahora qué",
+    "descripcion": "Anexo visual 02 · OMEGA-77"
+  },
+  {
+    "archivo": "imagenes/extra-03.jpg",
+    "titulo": "Okinahua",
+    "descripcion": "Anexo visual 03 · OMEGA-77"
+  },
+  {
+    "archivo": "imagenes/extra-04.jpg",
+    "titulo": "Lámina 04",
+    "descripcion": "Anexo visual 04 · OMEGA-77"
+  },
+  {
+    "archivo": "imagenes/extra-05.jpg",
+    "titulo": "Naturaleza artificial",
+    "descripcion": "Anexo visual 05 · OMEGA-77"
+  },
+  {
+    "archivo": "imagenes/extra-06.jpg",
+    "titulo": "Lámina 06",
+    "descripcion": "Anexo visual 06 · OMEGA-77"
+  },
+  {
+    "archivo": "imagenes/extra-07.jpg",
+    "titulo": "11RC · I",
+    "descripcion": "Anexo visual 07 · OMEGA-77"
+  },
+  {
+    "archivo": "imagenes/extra-08.jpg",
+    "titulo": "11RC · II",
+    "descripcion": "Anexo visual 08 · OMEGA-77"
+  },
+  {
+    "archivo": "imagenes/extra-09.jpg",
+    "titulo": "11RC · III",
+    "descripcion": "Anexo visual 09 · OMEGA-77"
+  }
+];
 const visor=document.getElementById('visor');
 const visorImagen=document.getElementById('visorImagen');
 const visorTitulo=document.getElementById('visorTitulo');
