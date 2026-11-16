@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+<title>Emblema imperial OMEGA-77</title>
+<rect width="128" height="128" rx="22" fill="#fcfbf8"/>
+<rect x="5" y="5" width="118" height="118" rx="18" fill="none" stroke="#1a1a1a" stroke-width="5"/>
+<g transform="translate(14 4) scale(1 1.07)" stroke="#1a1a1a" stroke-width="2.8" fill="none">
+<path d="M50 10V110M20 25V85M80 25V85M50 10L20 25 80 25 50 10M20 25L50 55 80 25M20 55H80M20 85L50 55 80 85M20 85H80M20 85L50 110 80 85"/>
+<circle cx="50" cy="10" r="6" fill="#fcfbf8"/><circle cx="20" cy="25" r="6" fill="#fcfbf8"/><circle cx="80" cy="25" r="6" fill="#fcfbf8"/><circle cx="20" cy="55" r="6" fill="#fcfbf8"/><circle cx="80" cy="55" r="6" fill="#fcfbf8"/><circle cx="50" cy="55" r="7" fill="#1a1a1a"/><circle cx="20" cy="85" r="6" fill="#fcfbf8"/><circle cx="80" cy="85" r="6" fill="#fcfbf8"/><circle cx="50" cy="85" r="6" fill="#dc2626" stroke="#dc2626"/><circle cx="50" cy="110" r="6" fill="#fcfbf8"/>
+</g></svg>
